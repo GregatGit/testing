@@ -25,7 +25,7 @@ describe('Headline Component', () => {
         }]
       }
       const propsErr = checkProps(Headline, expectedProps)
-      // const propsErr = checkPropTypes(Headline.propTypes, expectedProps, 'props', Headline.name)
+
       expect(propsErr).toBeUndefined()
     })
   })

@@ -36,5 +36,6 @@ describe('App component', () => {
     const component = findByTestAttr(wrapper, 'app')
     expect(component.length).toBe(1)
   })
+
   
 })
